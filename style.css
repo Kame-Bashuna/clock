@@ -1,17 +1,26 @@
-body{
-    background-color: black;
-}
-#head{
-    font-style: italic;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.clock{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    box-shadow: 10px rgba (0,0,0,0.1);
+    border-radius: 50%;
     margin-top: 10%;
+    background-color: aqua;
 }
-h1{
-    color: skyblue;
+.Clock-Face{
+    position: absolute;
+    top: 49%;
+    left:49%;
+    transform: translateX();
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+
 }
-#picha{
-    transform: rotate;
+.Hour-Hand{
+    width:5px;
+    height: 90px;
     
+
 }
